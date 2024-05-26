@@ -1,0 +1,32 @@
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (2, 1, 1, 0, 0, 0, 0, 0, 20, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (3, 1, 1, 0, 0, 0, 0, 0, 50, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (4, 2, 1, 1, 0, 3, 1, 30, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (5, 2, 1, 1, 4, 11, 1, 60, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (6, 2, 1, 1, 12, null, 0, 0, 100, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (7, 2, 2, 1, 0, 3, 1, 60, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (8, 2, 2, 1, 4, 11, 1, 120, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (9, 2, 2, 1, 12, null, 0, 0, 200, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (10, 3, 1, 1, 0, 1, 1, 0, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (11, 3, 1, 1, 1, 8, 1, 40, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (12, 3, 1, 1, 8, 24, 0, 60, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (13, 3, 1, 1, 24, null, 1, 0, 80, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (14, 3, 2, 1, 0, 12, 1, 60, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (15, 3, 2, 1, 12, 24, 0, 80, 0, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into fee_model (id, parking_entity_id, vehicle_type_id, is_start_inclusive, start, end, is_end_inclusive, base_fee, hourly_rate, created_at, last_updated_at)
+values (16, 3, 2, 1, 24, null, 1, 0, 100, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
